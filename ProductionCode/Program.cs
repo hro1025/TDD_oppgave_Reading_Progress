@@ -12,5 +12,6 @@ public class ReadingProgress
     public int BookProgress_Step2()
     {
         return 0;
+        throw new NotImplementedException("Not implemented yet");
     }
 }
