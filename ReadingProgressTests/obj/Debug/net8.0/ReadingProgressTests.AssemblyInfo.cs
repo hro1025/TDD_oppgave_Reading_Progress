@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReadingProgressTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5110b3d9e480772edc4949242eb462f5d96d1b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+271c1335a4ad33adcad9f231bcf9e06d77054931")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReadingProgressTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReadingProgressTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
