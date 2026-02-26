@@ -1,4 +1,4 @@
-Reading Progress Tracker — TDD Exercise
+# Reading Progress Tracker — TDD Exercise
 Overview
 
 This exercise explores Test-Driven Development (TDD) by building a small, isolated domain model step by step.
@@ -23,7 +23,7 @@ No database
 
 Pure domain logic only
 
-Part 1 — Formulate the Hypothesis
+## Part 1 — Formulate the Hypothesis
 
 Create a class called ReadingProgress that can answer the question:
 
@@ -32,7 +32,7 @@ Create a class called ReadingProgress that can answer the question:
 The design is intentionally vague.
 You begin by writing tests.
 
-Part 2 — First Experiment (Red)
+## Part 2 — First Experiment (Red)
 
 Hypothesis:
 If 0 pages of a book have been read, the progress should be 0%.
@@ -49,20 +49,20 @@ Do not add extra functionality
 
 Focus only on satisfying the test
 
-Part 4 — Refactor
+## Part 4 — Refactor
 
 Refactor the code for clarity without changing behavior.
 
 Tests must remain green
 
-Part 5 — New Hypothesis
+## Part 5 — New Hypothesis
 
 Hypothesis:
 If half of the book has been read, the progress should be 50%.
 
 Repeat the Red → Green → Refactor cycle.
 
-Part 6 — Edge Case Exploration
+## Part 6 — Edge Case Exploration
 
 Choose one of the following scenarios:
 
