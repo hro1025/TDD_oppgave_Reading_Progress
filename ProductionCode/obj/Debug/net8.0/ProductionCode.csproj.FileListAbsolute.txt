@@ -9,3 +9,4 @@
 /home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/refint/ProductionCode.dll
 /home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ProductionCode.pdb
 /home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ref/ProductionCode.dll
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ProductionCode.sourcelink.json

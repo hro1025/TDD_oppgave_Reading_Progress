@@ -99,3 +99,4 @@
 /home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ReadingProgressTests/obj/Debug/net8.0/ReadingProgressTests.pdb
 /home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ReadingProgressTests/obj/Debug/net8.0/ReadingProgressTests.genruntimeconfig.cache
 /home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ReadingProgressTests/obj/Debug/net8.0/ref/ReadingProgressTests.dll
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ReadingProgressTests/obj/Debug/net8.0/ReadingProgressTests.sourcelink.json

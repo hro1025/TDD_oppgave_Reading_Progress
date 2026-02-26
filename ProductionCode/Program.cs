@@ -4,6 +4,6 @@ public class ReadingProgress
 {
     public int BookProgress()
     {
-        return 0;
+        throw new NotImplementedException("Not implementedException");
     }
 }
