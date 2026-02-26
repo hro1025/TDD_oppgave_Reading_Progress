@@ -1,0 +1,11 @@
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ProductionCode.GeneratedMSBuildEditorConfig.editorconfig
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ProductionCode.AssemblyInfoInputs.cache
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ProductionCode.AssemblyInfo.cs
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ProductionCode.csproj.CoreCompileInputs.cache
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/bin/Debug/net8.0/ProductionCode.deps.json
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/bin/Debug/net8.0/ProductionCode.dll
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/bin/Debug/net8.0/ProductionCode.pdb
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ProductionCode.dll
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/refint/ProductionCode.dll
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ProductionCode.pdb
+/home/roan/Documents/Kodehode oppgaver/TDD_oppgave_Reading_Progress/ProductionCode/obj/Debug/net8.0/ref/ProductionCode.dll
