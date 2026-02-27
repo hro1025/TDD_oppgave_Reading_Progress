@@ -1,75 +1,135 @@
-# Reading Progress Tracker — TDD Exercise
-Overview
+# Reading Progress Tracker — TDD Assignment
 
-This exercise explores Test-Driven Development (TDD) by building a small, isolated domain model step by step.
-The focus is not on completeness, but on learning how design emerges through tests.
+## Overview
 
-Assignment
+This assignment focuses on learning **Test-Driven Development (TDD)** by building a small, isolated **domain model** step by step.
 
-Title: Exploring a Domain with TDD — Reading Progress Tracker
-Time frame: 1–2 hours
-Focus: Red → Green → Refactor as a learning cycle
-Goal: Experience how design evolves through tests
+The goal is **not** to build a complete application, but to experience how **design emerges through tests** using the  
+**Red → Green → Refactor** cycle.
 
-Background
+---
 
-You will build a small, isolated part of a system that tracks how far you have progressed in a book.
+## Learning Goals
 
-The scope is intentionally limited:
+- Practice writing tests **before** implementation
+- Let tests **drive the design**
+- Keep the domain small, isolated, and expressive
+- Refactor safely with tests as a safety net
 
-No UI
+---
 
-No database
+## Scope & Constraints
 
-Pure domain logic only
+### In scope (graded)
+- Pure **domain logic**
+- Unit tests
+- TDD workflow
 
-## Part 1 — Formulate the Hypothesis
+### Out of scope (not graded)
+- UI
+- Console input/output
+- Database
+- Framework-specific code
 
-Create a class called ReadingProgress that can answer the question:
+> Any UI (including console applications) must be kept **separate** from the domain model.
 
-“How far along am I in this book?”
+---
 
-The design is intentionally vague.
-You begin by writing tests.
+## Domain Problem
 
-## Part 2 — First Experiment (Red)
+You will model a small part of a system that answers the question:
 
-Hypothesis:
-If 0 pages of a book have been read, the progress should be 0%.
+> **“How far along am I in this book?”**
 
-Write one test that expresses this behavior
+The system should calculate **reading progress as a percentage (0–100)** based on:
+- Pages read
+- Total pages
 
-The test should fail
+---
 
-Part 3 — Minimal Implementation (Green)
+## Assignment Steps
 
-Implement just enough code to make the test pass.
+### Part 1 — Formulate the First Hypothesis
 
-Do not add extra functionality
+Create a domain class called `ReadingProgress`.
 
-Focus only on satisfying the test
+Do **not** design it upfront.  
+Start by writing a test.
 
-## Part 4 — Refactor
+---
 
-Refactor the code for clarity without changing behavior.
+### Part 2 — First Experiment (Red)
 
-Tests must remain green
+**Hypothesis:**  
+If `0` pages of a book have been read, the progress should be `0%`.
 
-## Part 5 — New Hypothesis
+- Write one test that expresses this behavior
+- Run the test and confirm that it fails
 
-Hypothesis:
-If half of the book has been read, the progress should be 50%.
+---
 
-Repeat the Red → Green → Refactor cycle.
+### Part 3 — Minimal Implementation (Green)
 
-## Part 6 — Edge Case Exploration
+- Implement **just enough code** to make the test pass
+- Do not add extra functionality
+- Avoid guessing future requirements
 
-Choose one of the following scenarios:
+---
 
-Total pages = 0
+### Part 4 — Refactor
 
-Pages read > total pages
+- Improve clarity, naming, or structure
+- Do not change behavior
+- All tests must remain green
 
-Pages read < 0
+---
 
-Write the test first, then decide how the system should behave.
+### Part 5 — New Hypothesis
+
+**Hypothesis:**  
+If half of the book has been read, the progress should be `50%`.
+
+- Write a new test **against the same domain model**
+- Let the new test force changes to the existing design
+- Repeat the Red → Green → Refactor cycle
+
+---
+
+### Part 6 — Edge Case Exploration
+
+Choose **one** of the following scenarios:
+
+- Total pages = `0`
+- Pages read > total pages
+- Pages read < `0`
+
+For the chosen case:
+- Write the test first
+- Decide how the system should behave
+- Adjust the domain model accordingly
+
+There is no single “correct” answer — only a **consistent, well-tested decision**.
+
+---
+
+## Optional (Not Graded)
+
+After the domain logic is complete and fully tested, you may create a **simple console application** that:
+
+- Reads user input (pages read, total pages)
+- Uses the `ReadingProgress` domain class
+- Prints the calculated progress
+
+The console app must not contain business logic.
+
+---
+
+## Success Criteria
+
+You have completed the assignment when:
+
+- Tests were written **before** implementation
+- A **single domain model** evolved through tests
+- No hardcoded values are tied to specific test cases
+- One edge case is explicitly tested
+- The domain logic can exist independently of any UI
