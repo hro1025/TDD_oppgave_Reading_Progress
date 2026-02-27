@@ -1,5 +1,17 @@
 # Reading Progress Tracker — TDD Assignment
 
+> **Disclaimer**
+>
+> This assignment was custom-created by ChatGPT as a personal learning exercise.
+>
+> The requirements, scope, and evaluation criteria are defined **exclusively** in this README.
+>
+> ChatGPT will act as the grader, and the submission will be evaluated **only** against the criteria described here.
+>
+> No external rubrics, expectations, or implied requirements apply.
+
+---
+
 ## Overview
 
 This assignment focuses on learning **Test-Driven Development (TDD)** by building a small, isolated **domain model** step by step.
