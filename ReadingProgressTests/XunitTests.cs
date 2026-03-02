@@ -1,5 +1,6 @@
 using System.Runtime;
 using System.Text;
+using Microsoft.VisualBasic;
 using TDD_oppgave_Reading_Progress;
 using Xunit;
 
@@ -8,52 +9,52 @@ namespace ReadingProgressTests;
 public class XUnitTests
 {
     [Fact]
-    public void ReadingProgress_Step1()
+    public void ReadingProgressHalf()
     {
         var target = new ReadingProgress();
 
-        var result = target.BookProgress_Step1();
+        var result = target.BookProgress(50, 100);
+
+        Assert.Equal(50, result);
+    }
+
+    [Fact]
+    public void ReadingProgressZero()
+    {
+        var target = new ReadingProgress();
+
+        var result = target.BookProgress(0, 100);
 
         Assert.Equal(0, result);
     }
 
     [Fact]
-    public void ReadingProgress_Step2()
+    public void ReadingProgressNothing()
     {
         var target = new ReadingProgress();
 
-        var result = target.BookProgress_Step2();
+        var result = target.BookProgress(0, 0);
 
         Assert.Equal(0, result);
     }
 
     [Fact]
-    public void ReadingProgress_Step3()
+    public void ReadingProgressGreater()
     {
         var target = new ReadingProgress();
 
-        var result = target.BookProgress_Step3(0);
+        var result = target.BookProgress(10, 0);
 
-        Assert.Equal(0, result);
+        Assert.Equal(10, result);
     }
 
     [Fact]
-    public void ReadingProgress_Step4()
+    public void ReadingProgressMinus()
     {
         var target = new ReadingProgress();
 
-        var value = target.BookProgress_Step4();
+        var result = target.BookProgress(10, 2222);
 
-        Assert.Equal(50, value, precision: 2);
-    }
-
-    [Fact]
-    public void ReadingProgress_Step5()
-    {
-        var target = new ReadingProgress();
-
-        var value = target.BookProgress_Step5();
-
-        Assert.Equal(17, value, precision: 2);
+        Assert.Equal(0.45004500450045004, result);
     }
 }
